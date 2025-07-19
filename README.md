@@ -28,8 +28,9 @@ It allows users to input natural language prompts and:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Nutan22341/LLM-Prompt-Tagger
-cd promptner
+git clone https://github.com/Nutan22341/LLM-Prompt-Tagger.git
+
+## Install the requirements.txt
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
