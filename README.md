@@ -23,4 +23,19 @@ It allows users to input natural language prompts and:
 - **NER Engine:** spaCy (`en_core_web_sm`)
 - **LLM:** Phi-4 Mini (via Ollama)
 - **Server:** Uvicorn
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/promptner.git
+cd promptner
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+
+## Ensure Ollama is installed
+ollama run phi4-mini
+
+## Start the FastAPI server
+uvicorn main:app --reload
 
